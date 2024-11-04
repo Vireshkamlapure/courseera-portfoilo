@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="home">
+        <div id="left">
+            <h2>Viresh Kamlapure</h2>
+            <p class="contact">
+                <img src="img/envelope.png" alt="Envelope Icon" class="icon">
+                Viresh7@gmail.com
+            </p>
+            <p class="contact">
+                <img src="img/phone.png" alt="Envelope Icon" class="icon">
+                1234567890
+            </p>
+        </div>
+
+        <nav>
+            <a href="#about"><button>About Me</button></a>|
+            <a href="#skills"><button>Skills</button></a>|
+            <a href="#projects"><button>Projects</button></a>|
+            <a href="#recommendations"><button>Recommendations</button></a>
+        </nav>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="aboutInfo">
+            <figure>
+                <img src="img/devpic.avif" alt="">
+            </figure>
+                <fieldset>
+                    <p id="leg">Hi , i am Viresh <img src="img/waving-hand.png" alt=""></p>
+                    <p>
+                        I am a full stack developer with 2 years of experiance in both application and presentation layers. I have worked on applications and microservices developed by IBM Cloud. I am avid user of IBM Waston service and have worked on Waston Assistant , NLU , Sentiment analyzer to name a few. 
+                    </p>
+                </fieldset>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <p id="leg" style="padding-left: 40px;">Skills</p>
+        <div id="skillsInfo" class="skillsInfo">
+
+            <div id="card" class="card">
+                <img src="img/html5.png" alt="">
+                <p id="info">HTML5</p>
+                <p id="expr">2 years experience</p>
+            </div>
+
+            <div id="card" class="card">
+                <img src="img/CSS3.png" alt="">
+                <p id="info">CSS3</p>
+                <p id="expr">1.5 years experience</p>
+            </div>
+
+            <div id="card" class="card">
+                <img src="img/js.jpeg" alt="">
+                <p id="info">Javascript</p>
+                <p id="expr">2.5 years experience</p>
+            </div>
+
+            <div id="card" class="card">
+                <img src="img/java.png" alt="">
+                <p id="info">Java</p>
+                <p id="expr">4 years experience</p>
+            </div>
+
+            <div id="card" class="card">
+                <img src="img/node.png" alt="">
+                <p id="info">Node Js</p>
+                <p id="expr">1.5 years experience</p>
+            </div>
+
+            <div id="card" class="card">
+                <img src="img/react.png" alt="">
+                <p id="info">React Js</p>
+                <p id="expr">1 years experience</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <p id="leg" style="padding-left: 40px;">Projects</p>
+        <div id="projectsInfo">
+
+            <div id="pro" class="pro">
+                <h3>Chatbot</h3>
+                <p><li>Develop a secure chatbot integrated with ai chatbot for an automobile client using HTML, CSS, JS and IBM Assistant </li></p>
+                <p id="role">Role: ML Trainer </p>
+                <div id="line" class="line"></div>
+            </div>
+
+            <div id="pro" class="pro">
+                <h3>Sentiment Analyzer</h3>
+                <p><li>Developed and deployed sentiment analyzer for box review section of eCommerce platform using IBM NLU </li></p>
+                <p id="role">Role: Frontend Developer </p>
+                <div id="line" class="line"></div>
+            </div>
+
+            <div id="pro" class="pro">
+                <h3>Fashion Website </h3>
+                <p><li>Created a styled multi-page website for a new player in the fashion industry and integrated it with shopping cart , using stript for payment gateway </li></p>
+                <p id="role">Role: Backend Developer </p>
+                <div id="line" class="line"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommendations" class="recommendations">
+        <p id="leg" style="padding-left: 40px;">Recommendations</p>
+
+        <div id="recommendationsInfo">
+            <div id="review" class="review">
+                <p>
+                    "Jane is a very quick learner and quickly grasps key concepts of Web development. She got a great attitude & she is an excellent team player. She has a curious mind and asks the right question. She takes initiative within a team and has potentials to lead the team."
+                </p>
+            </div>
+            <div id="review" class="review">
+                <p>
+                    "Working with Jane has been an awesome experience. She is highly knowledgable and always goes the extra step to make sure everything is right. For any future projects that need her expertise I would definitely want to work with her again."
+                </p>
+            </div>
+            <div id="review" class="review">
+                <p>
+                    "I had worked along with Jane during the initial phase of our venture which needed Web development. She is a committed resource who has in depth knowledge about the domain. She will be an asset for any organisation!"
+                </p>
+            </div>
+            <div id="review" class="review">
+                <p>
+                    "Good work service and quick learner and improving day by day in his studies . Keep it up "
+                </p>
+            </div>
+        </div>
+
+        <div id="giveReview" class="giveReview">
+            <h3>Leave a Recommendation</h3>
+
+            <input type="text" name="name" id="name" placeholder="Name (Optional)">
+
+            <textarea name="msg" id="msg" rows="10" cols="50" placeholder="Message"></textarea>
+
+            <button type="submit" onclick="showMsg()">Submit</button>
+
+        </div>
+
+    </section>
+
+    <div id="go-home" class="iconbtn">
+        <a href="#home">
+            <img src="img/home.png" alt="">
+        </a>
+    </div>
+
+</body>
+</html>
