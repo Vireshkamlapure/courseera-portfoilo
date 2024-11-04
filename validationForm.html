@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation using JS </title>
+    <script type="application/javascript">
+        function checkdata(){
+            var user = document.getElementById("name");
+            var email_address = document.getElementById("email");
+            if(user.value==""){
+                alert("Please Enter the name ");
+                user.focus();
+                return false;
+            }
+
+            if(email_address.value == ""){
+                alert("Please enter the email");
+                email_address.focus();
+                return false;
+        }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h1>Enter Your Contact Details </h1>
+    <form id="form1" onsubmit="return checkdata()">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

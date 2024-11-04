@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: arial;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+button{
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(80, 235, 222);
+    color: black;
+    border: 2px solid rgb(80, 235, 222);
+    border-radius: 25px;
+}
+button:hover{
+    cursor: pointer;
+}

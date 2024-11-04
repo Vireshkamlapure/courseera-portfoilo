@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addPara(){
+            var para = document.createElement("p");
+            var t =  document.createTextNode("Hello Noooobs ");
+            para.appendChild(t);
+            document.body.appendChild(para);
+            var dd = document.getElementById("b");
+            
+            dd.style.background = "red";
+        }
+        function wop(){
+            window.open('https://www.w3schools.com','netflix', "width=200,height=100")
+            alert("hi");
+        }
+    </script>
+</head>
+<body onload="addPara()" style="background-color: black;"  id="b">
+    <button onclick="wop()">Open window</button>
+    
+</body>
+</html>

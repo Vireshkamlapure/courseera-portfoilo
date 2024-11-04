@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Structural Tag ELEMENTS</title>
+</head>
+<body> 
+
+    <nav>
+        <div id="menu">
+            <a href="#">Home</a>
+            <a href="#deg">Div eg</a>
+            <a href="#sec">Section eg</a>
+            <a href="#art">Article</a>
+        </div>
+    </nav>
+
+    <audio controls>
+        <source src="happy.mp3" type="audio/mpeg" title="Happy">
+        <source src="creepy.mp3" type="audio/mpeg">
+        Your browser does not support the audio formats provided.
+    </audio>
+    
+    <<canvas>
+        Your browser does not support the canvas tag.
+    </canvas>
+    <script>
+        var canvas = document.getElementsByTagName("canvas")[0];
+        var context = canvas.getContext("2d");
+        context.fillRect(0, 0, 200, 200);
+    </script>
+
+    <div>
+        <embed src="htmlElements.html" type="text/html" width="600" height="500" style="border: black 5px solid;">
+    </div>
+    <video>
+        <source src="common_html_elements.mp4" type="video/mp4">
+        <track src="english_subtitles.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="spanish_subtitles.vtt" kind="subtitles" srclang="es" label="Spanish">
+      </video>
+    <div>
+        <h2>Heading in DIV</h2>
+        <p>This is a paragraph in DIV</p>
+    </div>
+
+    <section>
+        <h2>Section 1</h2>
+        <p>Random text in section 1</p>
+    </section>
+
+    <section>
+        <h2>Section 2</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+
+    <article>
+        <h2>Artical 1</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum.</p>
+    </article>
+
+    <article>
+        <h2>Artical 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </article>
+
+    <article id="art">
+        <header>
+            <h1>The Game is begin Now !!!</h1>
+        </header>
+
+        <div>
+            <section id="public">
+                <h2>Public Demonstration</h2>
+                <p>...more...</p>
+            </section>
+
+            <section id="private">
+                <h2>Private Complexity</h2>
+                <p>...more...</p>
+            </section>
+
+        </div>
+
+        <footer>
+            <p>Publisher Details ...</p>
+        </footer>
+    </article>
+
+
+    <p>This is some main information of Page</p>
+
+    <aside>
+        <h3>THis is aside content</h3>
+        <p>We can have here relavent info or else advertisement etc etc </p>
+    </aside>
+
+    <figure>
+        <img src="https://imgd.aeplcdn.com/600x600/n/cw/ec/48687/lamborghini-aventador-left-front-three-quarter0.jpeg?wm=0" alt="Sian" srcset="" width="1000" height="800">
+        <figcaption style="text-align: center;">Lambo Sian Image </figcaption>
+    </figure>
+</body>
+</html>

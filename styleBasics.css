@@ -1,0 +1,23 @@
+body{
+    background-color: #EEEEEE;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+h1{
+    color: #3366cc;
+    font-size: 24px;
+}
+
+#PerDet{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.ProfDet{
+    background-color: #ffd700;
+    color: #333;
+}
